@@ -61,9 +61,10 @@ function percentCalc(employee) {
 function finalBonus(bonusPercent, empNum) {
 console.log(bonusPercent, empNum)
 if(empNum.length === 4){
-  return percent+ .05;
+  return percent + .05;
 } else {
   return percent;
+}
 }
 // if (employee.employeeNumber.length === 4) {
 //   percent = percent + 0.05;
@@ -73,7 +74,7 @@ if(empNum.length === 4){
 // } if (percent > 0.13) {
 //   percent = 0.13;
 // } return percent;
-}
+
 
 
   console.log(employeeBonus(employees[0]));
